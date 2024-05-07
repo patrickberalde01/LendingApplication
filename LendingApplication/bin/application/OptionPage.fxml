@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="OptionPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: gainsboro;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OptionPageController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="147.0" prefWidth="800.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="136.0" fitWidth="138.0" layoutX="23.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/QCULOANLOGO.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="222.0" layoutY="54.0" prefHeight="8.0" prefWidth="287.0" text="Welcome to our System">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="displayFname" layoutX="573.0" layoutY="14.0" text="displayFname">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="displayLname" layoutX="573.0" layoutY="73.0" text="displayLname">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="283.0" layoutY="113.0" prefHeight="117.0" prefWidth="232.0" style="-fx-background-color: white; -fx-border-color: black;">
+         <children>
+            <Label layoutX="74.0" layoutY="33.0" text="00.00">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="275.0" prefHeight="161.0" prefWidth="800.0" style="-fx-background-color: indianred;">
+         <children>
+            <Button layoutX="14.0" layoutY="65.0" mnemonicParsing="false" onAction="#switchToLoanOption" prefHeight="25.0" prefWidth="157.0" text="LOAN">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="373.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="209.0" text="TRANSACTION HISTORY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="ExitButton" layoutX="599.0" layoutY="65.0" mnemonicParsing="false" onAction="#logout" prefHeight="25.0" prefWidth="187.0" text="EXIT/LOGOUT">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="194.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="157.0" text="Repayment">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+      <Button layoutX="185.0" layoutY="499.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="129.0" style="-fx-background-color: transparent;" text="Manual Guide" textFill="#6b6b6b">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="313.0" layoutY="504.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="FAQ" textFill="#6b6b6b">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="379.0" layoutY="504.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Privacy and Policy" textFill="#6b6b6b">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="508.0" layoutY="504.0" mnemonicParsing="false" onAction="#goToCustomerService" style="-fx-background-color: transparent;" text="Customer Service" textFill="#6b6b6b">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InformationPageController">
+   <children>
+      <ScrollPane layoutX="1.0" prefHeight="550.0" prefWidth="800.0">
+         <content>
+            <Pane prefHeight="1380.0" prefWidth="791.0">
+               <children>
+                  <CheckBox fx:id="agreeButton" layoutX="286.0" layoutY="162.0" mnemonicParsing="false" text="Yes, I agree to the ">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </CheckBox>
+                  <Label layoutX="73.0" layoutY="160.0" prefHeight="18.0" prefWidth="205.0" text="I. Student Information">
+                     <font>
+                        <Font size="20.0" />
+                     </font></Label>
+                  <TextField fx:id="lastnametxt" disable="true" layoutX="73.0" layoutY="195.0" prefHeight="40.0" prefWidth="180.0" promptText="Lastname">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <TextField fx:id="firstnametxt" disable="true" layoutX="275.0" layoutY="196.0" prefHeight="40.0" prefWidth="182.0" promptText="Firstname">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <TextField fx:id="middlenametxt" disable="true" layoutX="475.0" layoutY="196.0" prefHeight="40.0" prefWidth="180.0" promptText="Middlename">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <TextField fx:id="cAddresstxt" disable="true" layoutX="73.0" layoutY="249.0" prefHeight="38.0" prefWidth="584.0" promptText="Complete Address">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <CheckBox fx:id="sameAddressBox" disable="true" layoutX="73.0" layoutY="352.0" mnemonicParsing="false" onAction="#sameAddressMethod" prefHeight="26.0" prefWidth="284.0" text="Check if the same as Complete Address">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </CheckBox>
+                  <TextField fx:id="pAddresstxt" disable="true" layoutX="75.0" layoutY="312.0" prefHeight="40.0" prefWidth="584.0" promptText="Permanent Address">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <TextField fx:id="agetxt" disable="true" layoutX="73.0" layoutY="401.0" prefHeight="40.0" prefWidth="42.0" promptText="Age">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor></TextField>
+                  <DatePicker fx:id="bdayPicker" disable="true" layoutX="140.0" layoutY="401.0" onAction="#getDate" prefHeight="40.0" prefWidth="171.0" promptText="Birthdate">
+                     <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                     </cursor></DatePicker>
+                  <ComboBox fx:id="sexBox" disable="true" layoutX="346.0" layoutY="402.0" prefHeight="40.0" prefWidth="132.0" promptText="Sex">
+                     <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                     </cursor></ComboBox>
+                  <TextField fx:id="nationalitytxt" disable="true" layoutX="504.0" layoutY="402.0" prefHeight="40.0" prefWidth="158.0" promptText="Nationality">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <TextField fx:id="contacttxt" disable="true" layoutX="72.0" layoutY="460.0" prefHeight="40.0" prefWidth="201.0" promptText="Contact Number">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <TextField fx:id="emailtxt" disable="true" layoutX="307.0" layoutY="460.0" prefHeight="40.0" prefWidth="200.0" promptText="Email Address">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor>
+                  </TextField>
+                  <Button layoutX="387.0" layoutY="1305.0" mnemonicParsing="false" onAction="#switchToOptionPage" prefHeight="35.0" prefWidth="105.0" text="Go Back">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button fx:id="ButtonNext" disable="true" layoutX="225.0" layoutY="1305.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="106.0" text="Loan">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Label layoutX="76.0" layoutY="287.0" opacity="0.89" text="House No. Street, Barangay, Municipality/City, Province" />
+                  <Label layoutX="71.0" layoutY="545.0" text="II. Student Loaning">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="80.0" layoutY="594.0" prefHeight="18.0" prefWidth="96.0" text="Loan Amount:">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <TextField fx:id="AmountField" disable="true" layoutX="183.0" layoutY="584.0" prefHeight="40.0" prefWidth="200.0" promptText="₱0 - ₱2,000">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor></TextField>
+                  <Label layoutX="83.0" layoutY="666.0" text="Interest:">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <RadioButton fx:id="annualRate" disable="true" layoutX="156.0" layoutY="662.0" mnemonicParsing="false" onAction="#getInterest" text="0.05%">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </RadioButton>
+                  <RadioButton fx:id="radio1" disable="true" layoutX="92.0" layoutY="735.0" mnemonicParsing="false" onAction="#getPeriod" text="2 Months">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Period" />
+                     </toggleGroup>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </RadioButton>
+                  <RadioButton fx:id="radio2" disable="true" layoutX="307.0" layoutY="735.0" mnemonicParsing="false" onAction="#getPeriod" text="3 Months" toggleGroup="$Period">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </RadioButton>
+                  <RadioButton fx:id="radio3" disable="true" layoutX="536.0" layoutY="739.0" mnemonicParsing="false" onAction="#getPeriod" prefHeight="21.0" prefWidth="100.0" text="4 Months" toggleGroup="$Period">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </RadioButton>
+                  <RadioButton fx:id="radio4" disable="true" layoutX="203.0" layoutY="771.0" mnemonicParsing="false" onAction="#getPeriod" text="6 Months" toggleGroup="$Period">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </RadioButton>
+                  <RadioButton fx:id="radio5" disable="true" layoutX="439.0" layoutY="771.0" mnemonicParsing="false" onAction="#getPeriod" text="1 Year" toggleGroup="$Period">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </RadioButton>
+                  <ComboBox fx:id="withdrawalMode" disable="true" layoutX="446.0" layoutY="584.0" onAction="#getMode" prefHeight="40.0" prefWidth="180.0" promptText="Mode of Withdrawal">
+                     <cursor>
+                        <Cursor fx:constant="OPEN_HAND" />
+                     </cursor></ComboBox>
+                  <Label fx:id="AccountName" layoutX="385.0" layoutY="637.0" text="Name of Account" visible="false">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <Label fx:id="AccountNumber" layoutX="383.0" layoutY="685.0" text="Number of Account" visible="false">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <TextField fx:id="AccountNameField" layoutX="536.0" layoutY="627.0" prefHeight="40.0" prefWidth="160.0" promptText="Ex. Magollado, Lance" visible="false" />
+                  <TextField fx:id="AccountNumberField" layoutX="536.0" layoutY="676.0" prefHeight="40.0" prefWidth="160.0" promptText="0926*******" visible="false" />
+                  <Label layoutX="79.0" layoutY="706.0" prefHeight="18.0" prefWidth="63.0" text="Period:">
+                     <font>
+                        <Font size="15.0" />
+                     </font></Label>
+                  <Label layoutX="75.0" layoutY="820.0" prefHeight="30.0" prefWidth="223.0" text="III. ID's and Verifications">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="QcNumtxt" disable="true" layoutX="78.0" layoutY="905.0" prefHeight="40.0" prefWidth="180.0" promptText="ID Number">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor></TextField>
+                  <TextField fx:id="Qcownertxt" disable="true" layoutX="78.0" layoutY="964.0" prefHeight="40.0" prefWidth="180.0" promptText="Name of Owners ID">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor></TextField>
+                  <Label layoutX="314.0" layoutY="825.0" text="(QCID and School ID is only accepted)">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="QcidFrontButton" disable="true" layoutX="334.0" layoutY="866.0" mnemonicParsing="false" onAction="#FrontQcidFile" text="Choose File">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Label fx:id="QcidFrontLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="275.0" layoutY="1026.0" prefHeight="21.0" prefWidth="202.0" text="Front">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="QcidBackLabel" alignment="CENTER" layoutX="519.0" layoutY="1026.0" prefHeight="21.0" prefWidth="202.0" text="Back">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Schoolnumtxt" disable="true" layoutX="78.0" layoutY="1094.0" prefHeight="40.0" prefWidth="180.0" promptText="ID Number">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor></TextField>
+                  <TextField fx:id="Schoolownertxt" disable="true" layoutX="80.0" layoutY="1159.0" prefHeight="40.0" prefWidth="180.0" promptText="Name of Owners ID">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor></TextField>
+                  <Button fx:id="SchoolFrontButton" disable="true" layoutX="334.0" layoutY="1061.0" mnemonicParsing="false" onAction="#FrontSchoolFile" text="Choose File">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Label fx:id="SchoolFrontLabel" alignment="CENTER" layoutX="275.0" layoutY="1218.0" prefHeight="21.0" prefWidth="202.0" text="Front">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="SchoolBackLabel" alignment="CENTER" layoutX="519.0" layoutY="1228.0" prefHeight="21.0" prefWidth="202.0" text="Back">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="128.0" layoutY="874.0" text="QCID">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="110.0" layoutY="1043.0" text="School ID">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Schoolnametxt" disable="true" layoutX="80.0" layoutY="1219.0" prefHeight="40.0" prefWidth="180.0" promptText="School Name">
+                     <cursor>
+                        <Cursor fx:constant="TEXT" />
+                     </cursor></TextField>
+                  <Button fx:id="QcidBackButton" disable="true" layoutX="578.0" layoutY="866.0" mnemonicParsing="false" onAction="#BackQcidFile" text="Choose File">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <Button fx:id="SchoolBackButton" disable="true" layoutX="578.0" layoutY="1061.0" mnemonicParsing="false" onAction="#BackSchoolFile" text="Choose File">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <ImageView fx:id="QcidFrontImage" fitHeight="127.0" fitWidth="202.0" layoutX="275.0" layoutY="901.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" style="visibility: true;" />
+                  <ImageView fx:id="QcidBackImage" fitHeight="127.0" fitWidth="202.0" layoutX="519.0" layoutY="901.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="SchoolFrontImage" fitHeight="127.0" fitWidth="202.0" layoutX="275.0" layoutY="1095.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="SchoolBackImage" fitHeight="127.0" fitWidth="202.0" layoutX="519.0" layoutY="1095.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="121.0" fitWidth="130.0" layoutX="24.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/QCULOANLOGO.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="382.0" layoutY="517.0" />
+                  <Button layoutX="390.0" layoutY="158.0" mnemonicParsing="false" onAction="#GotoLoanAgree" style="-fx-background-color: transparent;" text="terms and conditons." textFill="#438dd7" underline="true">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </Pane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

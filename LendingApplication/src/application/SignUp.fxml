@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" style="-fx-background-color: IndianRed;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignupController">
+   <children>
+      <AnchorPane layoutX="-6.0" layoutY="-10.0" prefHeight="154.0" prefWidth="806.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="139.0" fitWidth="147.0" layoutX="25.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/QCULOANLOGO.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="140.0" layoutY="160.0" prefHeight="362.0" prefWidth="520.0" style="-fx-background-color: white;">
+         <children>
+            <Button fx:id="signupButton" disable="true" layoutX="205.0" layoutY="255.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="32.0" prefWidth="110.0" style="-fx-cursor: hand;" text="Sign Up">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtlastname" disable="true" layoutX="54.0" layoutY="98.0" prefHeight="32.0" prefWidth="157.0" promptText="Lastname" />
+            <TextField fx:id="txtfirstname" disable="true" layoutX="279.0" layoutY="98.0" prefHeight="32.0" prefWidth="157.0" promptText="Firstname" />
+            <TextField fx:id="txtuname" disable="true" layoutX="54.0" layoutY="151.0" prefHeight="32.0" prefWidth="157.0" promptText="Username" />
+            <TextField fx:id="txtemail" disable="true" layoutX="279.0" layoutY="151.0" prefHeight="32.0" prefWidth="157.0" promptText="Email Address" />
+            <PasswordField fx:id="txtpass1" disable="true" layoutX="54.0" layoutY="206.0" prefHeight="32.0" prefWidth="157.0" promptText="Password">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </PasswordField>
+            <PasswordField fx:id="txtpass2" disable="true" layoutX="279.0" layoutY="206.0" prefHeight="32.0" prefWidth="157.0" promptText="Re-Enter Password" />
+            <Button layoutX="187.0" layoutY="294.0" mnemonicParsing="false" onAction="#backToLogin" prefHeight="24.0" prefWidth="147.0" style="-fx-background-color: transparent; -fx-cursor: hand;" text="Already have an Account?" textFill="#3787b9" underline="true">
+               <font>
+                  <Font size="11.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="34.0" layoutY="14.0" text="Sign Up">
+               <font>
+                  <Font name="Arial Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="50.0" text="It's quick and easy!!">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="AllLabel" alignment="CENTER" layoutX="55.0" layoutY="73.0" prefHeight="24.0" prefWidth="381.0" textFill="#f20000" />
+            <CheckBox fx:id="logInCheckbox" layoutX="156.0" layoutY="325.0" mnemonicParsing="false" text="I agree to the">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></CheckBox>
+            <Label fx:id="PasswordLabel" layoutX="279.0" layoutY="238.0" prefHeight="17.0" prefWidth="157.0" textFill="RED" />
+            <Label fx:id="EmailLabel" layoutX="279.0" layoutY="185.0" prefHeight="17.0" prefWidth="157.0" textFill="RED" />
+            <Button fx:id="AuthenticBotton" layoutX="244.0" layoutY="321.0" mnemonicParsing="false" onAction="#goToUserAut" style="-fx-background-color: transparent; -fx-cursor: hand;" text="terms and conditions." textFill="#438dd7" underline="true" />
+            <Label fx:id="PasswordLabel1" layoutX="54.0" layoutY="238.0" prefHeight="17.0" prefWidth="157.0" textFill="RED" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

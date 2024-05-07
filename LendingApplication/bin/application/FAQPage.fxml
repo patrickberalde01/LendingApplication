@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="550.0" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="90.0" prefWidth="800.0" style="-fx-background-color: #000080;">
+         <children>
+            <Label layoutX="14.0" layoutY="20.0" text="Frequently Asked Questions" textFill="#fffbfb">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ScrollPane layoutY="90.0" prefHeight="460.0" prefWidth="800.0">
+         <content>
+            <Pane prefHeight="607.0" prefWidth="781.0">
+               <children>
+                  <Label layoutX="8.0" layoutY="1.0" prefHeight="35.0" prefWidth="245.0" text="1. What types of loans do you offer? ">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="38.0" layoutY="28.0" text="Our primary offering is personal loans, which are versatile financial products designed to meet a variety of needs such as financial needs, " />
+                  <Label layoutX="38.0" layoutY="45.0" text="from unexpected expenses to major purchases. With competitive rates and flexible terms, our personal loans provide the " />
+                  <Label layoutX="678.0" layoutY="45.0" text="support you need" />
+                  <Label layoutX="38.0" layoutY="62.0" text="to achieve your goals." />
+                  <Label layoutX="8.0" layoutY="79.0" prefHeight="35.0" prefWidth="337.0" text="2. What are the eligibility criteria for obtaining a loan?">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="38.0" layoutY="106.0" text="To qualify for a loan, you must be a current QCU student with a QCYDO scholarship. We evaluate applications based on academic standing, " />
+                  <Label layoutX="34.0" layoutY="123.0" text=" scholarship status, and responsible financial behavior." />
+                  <Label layoutX="8.0" layoutY="140.0" prefHeight="35.0" prefWidth="337.0" text="3. How much can I borrow? ">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="167.0" text="The maximum borrowing limit is set at 2000 pesos. This amount is determined to align with your financial requirements while maintaining " />
+                  <Label layoutX="35.0" layoutY="182.0" text="a responsible approach to repayment." />
+                  <Label layoutX="8.0" layoutY="202.0" prefHeight="29.0" prefWidth="369.0" text="4. What documents are required for the loan application? ">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="225.0" text="Required documents for a student loan application include a QCU student ID and a Quezon City ID. These documents verify identity, " />
+                  <Label layoutX="34.0" layoutY="242.0" text="enrollment, and residency status, ensuring compliance and facilitating a smooth application process." />
+                  <Label layoutX="8.0" layoutY="259.0" prefHeight="29.0" prefWidth="369.0" text="5. What is the interest rate and how is it calculated? ">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="282.0" text="The interest rate for the loan is 8.5% per annum, calculated on a compound basis. This means that interestis accrued not only on the" />
+                  <Label layoutX="34.0" layoutY="299.0" text="principal amount but also on any accumulated interest, resulting in a slightly higher overall repayment amount." />
+                  <Label layoutX="8.0" layoutY="316.0" prefHeight="29.0" prefWidth="369.0" text="6. What is the loan term and repayment schedule? ">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="341.0" text="The loan term spans one year, with monthly repayment installments. This structure ensures borrowers can efficiently manage their finances," />
+                  <Label layoutX="35.0" layoutY="357.0" text="making consistent payments towards the loan within a manageable timeframe." />
+                  <Label layoutX="8.0" layoutY="374.0" prefHeight="29.0" prefWidth="369.0" text="7. Are there any additional fees or charges? ">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="397.0" text="Late payment fees may apply in the event of delayed repayments. These fees serve as penalties for missing scheduled payments and are" />
+                  <Label layoutX="34.0" layoutY="414.0" text="typically outlined in the loan agreement. It's essential to prioritize timely payments to avoid incurring these additional charges." />
+                  <Label layoutX="8.0" layoutY="431.0" prefHeight="29.0" prefWidth="369.0" text="8. What happens if I miss a payment? ">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="454.0" text="If a payment is missed, your account may be temporarily frozen. To reactivate it, you'll need to contact customer service. This ensures " />
+                  <Label layoutX="34.0" layoutY="471.0" text="compliance with loan terms and facilitates prompt resolution, preventing further disruptions to your account." />
+                  <Label layoutX="8.0" layoutY="488.0" prefHeight="29.0" prefWidth="420.0" text="9. How can I track my loan status or make changes to my account? ">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="34.0" layoutY="509.0" text="You can track your loan status and make changes to your account through our online portal or mobile app. These platforms provide" />
+                  <Label layoutX="34.0" layoutY="526.0" text="real-time updates on your loan status, payment history, and account details. Additionally, you can reach out to our customer service team" />
+                  <Label layoutX="30.0" layoutY="542.0" text=" for assistance with any inquiries or account modifications." />
+               </children>
+            </Pane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

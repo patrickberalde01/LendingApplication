@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="550.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21">
+   <children>
+      <Pane prefHeight="90.0" prefWidth="800.0" style="-fx-background-color: #000080;">
+         <children>
+            <Label layoutX="14.0" layoutY="20.0" text="MANUAL GUIDE" textFill="#fffbfb">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ScrollPane layoutY="90.0" prefHeight="460.0" prefWidth="800.0">
+         <content>
+            <Pane prefHeight="3227.0" prefWidth="780.0" style="-fx-background-color: WHITE;">
+               <children>
+                  <Label layoutX="6.0" layoutY="-1.0" text="Step 1:  SIGN UP" textFill="#252525">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="14.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/SignUp.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="14.0" layoutY="29.0" text="Navigate to the &quot;Sign Up&quot; page and fill out the necessary information And don't forget to read the User Authentication Agreement ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="6.0" layoutY="357.0" text="Step 2:  LOGIN" textFill="#252525">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="387.0" text="Login using your Username and Password.">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="401.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/UserAuthentication.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="10.0" layoutY="48.0" text=" and simply click the checkbox.">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="184.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/Login.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="6.0" layoutY="703.0" text="Step 3:  LOAN INQUIRING" textFill="#252525">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="733.0" text="If you want to inquire a loan click the &quot;LOAN&quot; button in the left corner.">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="200.0" layoutY="756.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/LoanHomePage.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="6.0" layoutY="1050.0" text="Step 4:  FILL-OUT INFORMATION" textFill="#252525">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="1080.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="1081.0" text="Fill out personal information and simply click the checkbox after reading the terms and condition.">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="14.0" layoutY="1100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/StudentInfo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="401.0" layoutY="1100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/SI_TermsAndCondition.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="14.0" layoutY="1391.0" text="Step 5:  ID VERIFICATION" textFill="#252525">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="1421.0" text="Upload Id's to verify identity, reducie fraud risk and ensure compliance.">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="212.0" layoutY="1440.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/ID.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="9.0" layoutY="1744.0" text="Step 6: COMPLETION" textFill="#252525">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="1774.0" text="After your loan request was approved you can see the amount you've loan in home page.">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="228.0" layoutY="1800.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/LoanSuccessfull.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="5.0" layoutY="2081.0" prefHeight="32.0" prefWidth="769.0" text="____________________________________________________________________________________">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="309.0" layoutY="2113.0" text="OTHER CONCERNS " textFill="#252525">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="6.0" layoutY="2168.0" text="REPAYMENT:" textFill="#252525">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="9.0" layoutY="2120.0" prefHeight="32.0" prefWidth="769.0" text="____________________________________________________________________________________">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="10.0" layoutY="2198.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/LoanHomePage.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="400.0" layoutY="2198.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/Repayment.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="6.0" layoutY="2504.0" text="TRANSACTION HISTORY" textFill="#252525">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="2534.0" text="If you want to track or check your current/past loan transaction click the &quot;TRANSACTION HISTORY&quot; button.">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="212.0" layoutY="2553.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/TRANSACTION%20HISTORY.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="12.0" layoutY="2862.0" text="CUSTOMER SERVICE" textFill="#252525">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="2892.0" text="If you have any concern or your account is freeze because you missed a repayment, click the &quot;customer service&quot; button.">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="274.0" fitWidth="434.0" layoutX="212.0" layoutY="2919.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../OneDrive/Desktop/IP/CustomerService.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
